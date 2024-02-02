@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@webartestudio/home": ["modules/feature/home/src/index.ts"],
       "@webartestudio/layout": ["modules/feature/layout/src/index.ts"]
     }
   },
