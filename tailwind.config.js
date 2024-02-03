@@ -7,6 +7,7 @@ module.exports = {
     join(__dirname, 'src/**/!(*.stories|*.spec).{ts,html}'),
     ...createGlobPatternsForDependencies(__dirname),
     'modules/feature/layout/src/**/!(*.stories|*.spec).{ts,html}',
+    'modules/ui/solution/src/**/!(*.stories|*.spec).{ts,html}',
   ],
   theme: {
     extend: {
