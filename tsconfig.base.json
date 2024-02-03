@@ -17,6 +17,7 @@
     "paths": {
       "@webartestudio/home": ["modules/feature/home/src/index.ts"],
       "@webartestudio/layout": ["modules/feature/layout/src/index.ts"],
+      "@webartestudio/solution-ui": ["modules/ui/solution/src/index.ts"],
       "@webartestudio/solutions-data-access": [
         "modules/data-access/solutions/src/index.ts"
       ]
