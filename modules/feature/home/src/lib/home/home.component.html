@@ -4,6 +4,8 @@
   <webartestudio-solution-card></webartestudio-solution-card>
   @if (visible) {
   <webartestudio-work-process></webartestudio-work-process>
+  } @if (isContactVisible) {
+  <webartestudio-contact></webartestudio-contact>
   } } @placeholder {
   <webartestudio-spinner></webartestudio-spinner>
   }
