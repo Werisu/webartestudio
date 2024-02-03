@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@webartestudio/contact-data-access": [
+        "modules/data-access/contact/src/index.ts"
+      ],
       "@webartestudio/home": ["modules/feature/home/src/index.ts"],
       "@webartestudio/layout": ["modules/feature/layout/src/index.ts"],
       "@webartestudio/solution-ui": ["modules/ui/solution/src/index.ts"],
