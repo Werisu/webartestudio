@@ -1,6 +1,10 @@
-<webartestudio-hero></webartestudio-hero>
-@defer (on viewport) {
-<webartestudio-solution-card></webartestudio-solution-card>
-} @placeholder {
-<webartestudio-spinner></webartestudio-spinner>
-}
+<main class="dark:bg-gray-900">
+  <webartestudio-hero></webartestudio-hero>
+  @defer (on viewport) {
+  <webartestudio-solution-card></webartestudio-solution-card>
+  @if (visible) {
+  <webartestudio-work-process></webartestudio-work-process>
+  } } @placeholder {
+  <webartestudio-spinner></webartestudio-spinner>
+  }
+</main>
